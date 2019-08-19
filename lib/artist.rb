@@ -19,5 +19,6 @@ end
 end 
 
 def self.find_or_create_by_name(name) 
-  
+  if self.find.name 
+    
 end 

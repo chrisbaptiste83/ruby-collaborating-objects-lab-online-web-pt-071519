@@ -28,5 +28,10 @@ def self.find_or_create_by_name(name)
     self.new(name) 
   end 
 end 
-    
+
+def print_songs 
+  songs.each do |song| 
+    puts song.name 
+  end 
+end 
 end 

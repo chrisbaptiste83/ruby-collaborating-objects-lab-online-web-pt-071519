@@ -25,6 +25,8 @@ def self.find_or_create_by_name(name)
   if artist = self.find(name) 
     artist 
   else 
-    
+    self.new(name) 
+  end 
+end 
     
 end 

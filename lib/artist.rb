@@ -17,7 +17,7 @@ def songs
   Song.all.select do |song| song.artist == self 
 end 
 end 
-def self.find.name 
+def self.find(name)
 def self.find_or_create_by_name(name) 
   if self.find.name 
     

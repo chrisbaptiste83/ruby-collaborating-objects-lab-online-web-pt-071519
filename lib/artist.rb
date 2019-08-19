@@ -22,6 +22,9 @@ def self.find(name)
 end 
 
 def self.find_or_create_by_name(name) 
-  if self.find.name 
+  if artist = self.find(name) 
+    artist 
+  else 
+    
     
 end 
